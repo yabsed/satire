@@ -6,3 +6,9 @@
 - **[02_conversation](02_conversation/readme.pdf)**: 원문을 대통령과 지니의 대화로 재구성한 글. 원문 인용과 네 번의 가상 실험을 교차 편집하며, 각 선택 이후에 남는 문제를 살펴봅니다.
 
 두 글은 각 폴더에서 Markdown과 PDF로 읽을 수 있습니다. 나머지 `01_sketch-writing`과 `02_conversation-writing` 폴더에는 사전 조사, 집필 기록, 한국어판, 프롬프트와 AI 대화 기록 등 작성 과정 자료를 담았습니다.
+
+아래 그래프는 두 대화에서 ChatGPT의 답변 수(위)와 글자 수(아래)를 10분 단위로 집계한 것입니다. 가로축은 한국 시간입니다.
+
+![작성 과정의 ChatGPT 답변 수와 글자 수를 시간별로 비교한 그래프](03_aftermath/02_python/chat_intensity.png)
+
+분석 코드: [Jupyter 노트북](03_aftermath/02_python/chat_intensity.ipynb)
